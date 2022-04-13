@@ -155,7 +155,8 @@ class antlinker(object):
         except Exception as reason:
             feedback = str(reason)
         return feedback
-
+print("测试")
+    
 with open("info.json", 'r', encoding="UTF-8") as load_f:
     load_dict = json.load(load_f)
 
